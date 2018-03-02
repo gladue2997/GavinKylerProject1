@@ -2,11 +2,18 @@
 public class Main {
 
 	public static void main(String[] args) {
-
+		actualDice d = new actualDice();
+		d.startRolling();
+		
 	}
 
-	public void actualBank() {
 
+
+}
+
+class actualDice {
+	
+	public void startRolling() {
+		
 	}
-
 }
