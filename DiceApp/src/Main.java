@@ -8,7 +8,7 @@ public class Main {
 		d.startRolling();
 
 	}
- 
+
 }
 
 class actualDice {
@@ -29,7 +29,7 @@ class actualDice {
 	}
 
 	public void removeDice(Dice d) {
- 
+		diceList.remove(d);
 	}
 
 }
