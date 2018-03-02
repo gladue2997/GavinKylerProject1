@@ -17,7 +17,7 @@ class actualDice {
 	Scanner sc = new Scanner(System.in);
 
 	public void startRolling() {
-
+ 
 	}
 
 	public void createDice(int userSideSelection) {
