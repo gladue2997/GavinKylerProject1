@@ -43,4 +43,9 @@ public class Dice {
 		this.currentSide = currentSide;
 	}
 
+	@Override
+	public String toString() {
+		return "Dice \n" + "Number of sides: " + this.numberOfSides + "\nCurrent side: " + this.currentSide;
+	}
+
 }

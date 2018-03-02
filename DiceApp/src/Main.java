@@ -17,6 +17,24 @@ class actualDice {
 	Scanner sc = new Scanner(System.in);
 
 	public void startRolling() {
+		
+		createDice(6);
+		createDice(5);
+		
+		removeDice(diceList.get(0));
+		
+		/*
+		removeDice(diceList.get(1));
+		removeDice(diceList.get(2));
+		removeDice(diceList.get(3));
+		removeDice(diceList.get(4));
+		removeDice(diceList.get(5));
+		removeDice(diceList.get(6));
+		removeDice(diceList.get(7));
+		removeDice(diceList.get(8));
+		*/
+		
+		System.out.println(diceList);
  
 	}
 
