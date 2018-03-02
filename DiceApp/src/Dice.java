@@ -21,7 +21,8 @@ public class Dice {
 	}
 
 	/**
-	 * @param numberOfSides the numberOfSides to set
+	 * @param numberOfSides
+	 *            the numberOfSides to set
 	 */
 	public void setNumberOfSides(int numberOfSides) {
 		this.numberOfSides = numberOfSides;
@@ -35,15 +36,11 @@ public class Dice {
 	}
 
 	/**
-	 * @param currentSide the currentSide to set
+	 * @param currentSide
+	 *            the currentSide to set
 	 */
 	public void setCurrentSide(int currentSide) {
 		this.currentSide = currentSide;
 	}
 
-	
-
-
-	
-	
 }
