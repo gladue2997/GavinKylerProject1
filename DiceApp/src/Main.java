@@ -8,7 +8,7 @@ public class Main {
 		d.startRolling();
 
 	}
-
+ 
 }
 
 class actualDice {
