@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="505.0" prefWidth="588.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <ImageView id="imageview" fx:id="imageview1" fitHeight="87.0" fitWidth="87.0" layoutX="25.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="button" fx:id="button1" layoutX="30.0" layoutY="134.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="76.0" text="Roll" />
+      <ImageView id="imageview" fx:id="imageview2" fitHeight="87.0" fitWidth="87.0" layoutX="130.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="button" fx:id="button2" layoutX="136.0" layoutY="134.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="76.0" text="Roll" />
+      <ImageView id="imageview" fx:id="imageview3" fitHeight="87.0" fitWidth="87.0" layoutX="233.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="button" fx:id="button3" layoutX="238.0" layoutY="134.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="76.0" text="Roll" />
+      <ImageView id="imageview" fx:id="imageview4" fitHeight="87.0" fitWidth="87.0" layoutX="25.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="button" fx:id="button4" layoutX="30.0" layoutY="286.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="76.0" text="Roll" />
+      <ImageView id="imageview" fx:id="imageview5" fitHeight="87.0" fitWidth="87.0" layoutX="130.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="button" fx:id="button5" layoutX="136.0" layoutY="286.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="76.0" text="Roll" />
+      <ImageView id="imageview" fx:id="imageview6" fitHeight="87.0" fitWidth="87.0" layoutX="233.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="button" fx:id="button6" layoutX="238.0" layoutY="286.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="76.0" text="Roll" />
+      <ImageView id="imageview" fx:id="imageview7" fitHeight="87.0" fitWidth="87.0" layoutX="25.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="button" fx:id="button7" layoutX="31.0" layoutY="453.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="76.0" text="Roll" />
+      <ImageView id="imageview" fx:id="imageview8" fitHeight="87.0" fitWidth="87.0" layoutX="131.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="button" fx:id="button8" layoutX="137.0" layoutY="453.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="76.0" text="Roll" />
+      <ImageView id="imageview" fx:id="imageview9" fitHeight="87.0" fitWidth="87.0" layoutX="233.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="button" fx:id="button9" layoutX="238.0" layoutY="453.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="76.0" text="Roll" />
+      <Button id="button" fx:id="allRollButton" layoutX="454.0" layoutY="441.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="76.0" text="Roll All" />
+      <ChoiceBox fx:id="diceBox" layoutX="417.0" layoutY="122.0" prefWidth="150.0" />
+      <Label fx:id="diceSides" layoutX="478.0" layoutY="178.0" text="Label" />
+   </children>
+</AnchorPane>

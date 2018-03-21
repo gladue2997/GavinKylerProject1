@@ -1,7 +1,9 @@
+package application;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class DiceMain {
 
 	public static void main(String[] args) {
 		actualDice d = new actualDice();
